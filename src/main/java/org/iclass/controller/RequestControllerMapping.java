@@ -7,6 +7,10 @@ import org.iclass.controller.community.ListController;
 import org.iclass.controller.community.ReadController;
 import org.iclass.controller.community.WriteViewController;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/heads/mybranch
 public class RequestControllerMapping {
 	private static final Map<RequestKeyValue,Controller> mapping = new HashMap<>();
 	
