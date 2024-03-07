@@ -8,7 +8,6 @@ import org.iclass.controller.community.ReadController;
 import org.iclass.controller.community.WriteViewController;
 
 import org.iclass.controller.community.WriteController;
-import org.iclass.controller.community.WriteViewController;
 import org.iclass.controller.member.LoginActionController;
 import org.iclass.controller.member.LoginViewController;
 import org.iclass.controller.member.LogoutController;
