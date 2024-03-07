@@ -17,7 +17,7 @@ class HashingTest {
 		try {
 			String hashvalue = service.encrypt("1111");
 			log.info("해시값 : {}",hashvalue);
-			hashvalue = service.encrypt("thGh123!@4");
+			hashvalue = service.encrypt("thGH123!@4");
 			log.info("해시값 : {}",hashvalue);
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
