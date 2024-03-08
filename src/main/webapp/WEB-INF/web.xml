@@ -22,4 +22,14 @@
         <url-pattern>*.ttf</url-pattern>
         <url-pattern>*.woff</url-pattern>
     </servlet-mapping>
+    <!-- 404 ERROR 에 대한 페이지 설정 -->
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error.html</location>
+  </error-page>
+  <!-- Exception 오류에 대한 페이지 설정 -->
+  <error-page>
+  	<exception-type>java.lang.Exception</exception-type>
+  	<location>/error.html</location>
+  </error-page>
 </web-app>

@@ -207,6 +207,9 @@ section  {
 #read th,td {
 	padding-bottom: 3px;
 }
+#read textarea {
+	resize: none;
+}
 
 
 
