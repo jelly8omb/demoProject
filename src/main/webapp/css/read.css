@@ -211,6 +211,9 @@ section  {
 	resize: none;
 }
 
+#read textarea {
+	resize: none;
+}
 
 
 
